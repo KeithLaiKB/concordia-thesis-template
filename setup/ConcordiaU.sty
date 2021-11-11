@@ -306,6 +306,8 @@ of Doctor of Philosophy.
        {}
 \newenvironment{acknowledgments}
        {\prefacesection{Acknowledgments}}
+       % if you delete {\afterpreface}, it would not shows the Contents page
+       % because {\afterpreface} would use \tableofcontents to produce Contents 
        {\afterpreface}
 
 \makeatother
